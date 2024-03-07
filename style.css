@@ -1,0 +1,262 @@
+nav,footer
+{
+    background-color: blueviolet;
+    color:white;
+    border-radius: 10px;
+}
+img.logo
+{
+    width:55px;
+    height:auto;
+    border-radius:10px;
+}
+  
+  .centered-nav {
+    text-align: left;
+  }
+  
+  .centered-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .centered-nav li {
+    display: inline-block;
+    margin-right: 30px; /* Adjust as needed */
+  }
+  
+  .centered-nav a {
+    text-decoration: none;
+    color: rgb(242, 255, 0);
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 0px;
+    font-size: 20px;
+  }
+  
+ul {
+    float:inherit;
+    display: inline;
+    list-style-type: none;
+    margin: 100;
+    padding: 100;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+a{
+    color:white;
+}
+a.developer
+{
+    color:white;
+    float:right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,h2,h3
+{
+    margin-top:25px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+label
+{
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+#header_button
+{
+background-color: rgba(255, 255, 255, 0);
+color: white;
+border-color: rgba(245, 245, 220, 0);
+font-size: larger;
+padding: 10px 20px;
+margin: 10px 30px;
+float: right;
+background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/342/302/small/glossy-buttons-clipart-design-illustration-free-png.png");
+background-size: 100% 100%;
+}
+
+img.hero_image
+{
+    width:100%;
+    height: 600px;
+    overflow:hidden;
+    border-radius: 30px;
+}
+#hero_image_button
+{
+    position:absolute;
+    left:50px;
+    top:420px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-color: rgba(245, 245, 220, 0);
+    font-size: larger;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    float: right;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/342/302/small/glossy-buttons-clipart-design-illustration-free-png.png");
+    background-size: 100% 100%;
+    
+}
+h1.hero_image_button
+{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    left:90px;
+    top:80px;
+    font-size:30px;
+    color:orangered;
+    text-shadow: 2px 2px 4px black;
+}
+p.hero_image_button
+{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    left:90px;
+    top:80px;
+    color:rgb(255, 213, 2);
+    text-shadow: 2px 2px 4px black;
+    text-align:left;
+}
+h1.about {
+    font-size: 48px; /* Adjusting the font size */
+    text-align: center; /* Aligning the text to the center */
+    margin-top: 20px; /* Adding top margin */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    position:relative;
+}
+
+iframe.about_image
+{
+    position:absolute;
+    width:390px;
+    right: 20px;
+    top: 700px;
+    border-radius: 20px; /* This will curve the edges of the image */
+}
+div.card 
+{
+        width: 250px;
+        margin:10px;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        float: left;
+}
+p,li.list_items
+{
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+img.card 
+{
+    border-radius: 15px 15px 0 0;
+}
+div.container
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button
+{
+background-color: rgba(255, 255, 255, 0);
+color: white;
+border-color: rgba(245, 245, 220, 0);
+font-size: 15px;
+padding: 10px 20px;
+margin: 10px 30px;
+float: left;
+background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/342/302/small/glossy-buttons-clipart-design-illustration-free-png.png");
+background-size: 100% 100%;
+}
+
+section.form
+{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+div.card_contact
+{
+        width: 550px;
+        margin-left: 30%;
+        margin-right: 50%;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        float: left;
+}
+div.card_pricing
+{
+        width: 250px;
+        margin-left: 30%;
+        margin-right: 50%;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        float: left;
+}
+.common_table
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin-left:40%;
+    margin-right:40%;
+    background:purple;
+    color:white;
+    border-radius:10px;
+td {
+    padding:15px;
+}
+th{
+    padding:8px;
+}
+}
+video,iframe{
+    width:24%;
+    height: 300px;
+    max-width: 100%;
+    display: inline;
+    margin: 0 auto;
+}
+audio{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 640px;
+}
+h3.developer
+{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:30px;
+    position:relative;
+    margin-top: 30px;
+    padding-top:10px;
+    line-height:20px;
+    padding-left:5px;
+    padding-right:5px;
+}
+body
+{
+    background-image: url("GIF/Spongebob.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
