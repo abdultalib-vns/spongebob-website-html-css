@@ -1,2 +1,251 @@
-# spongebob-website-html-css
-Spongebob Website using HTML &amp; CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spongebob Website in HTML | CSS by Abdul Talib</title>
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/originals/5f/81/99/5f8199f1ccc14306ff8ce07577afa01e.gif">
+    <header>
+        <nav class="centered-nav">
+            <img class="logo" src="https://i.pinimg.com/originals/5f/81/99/5f8199f1ccc14306ff8ce07577afa01e.gif" height="50">
+            <ul>
+                <li><a href="#">🏠Home</a></li>
+            <li>💁About Us</li>
+            <li>📞Contact Us</li>
+            <li>🤖Services</li>
+            <li>💬WhatsApp</li>
+            </ul>
+            <button type="submit" id="header_button" align="right">Connect with Abdul</button>
+        </nav>
+    </header>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="position: relative; text-align: center;">
+    <img src="https://i.gifer.com/5PUq.gif" style="width:100%; height: 600px;" class="hero_image">
+    <button id="hero_image_button">Tap on Explore</button>
+    <br>
+    <p class="hero_image_button"><b>A yellow sea sponge named SpongeBob SquarePants, who <br>enjoys being a cook at Krusty Krab, lives in the Pacific Ocean</b></p>
+    <h1 class="hero_image_button">Welcome to Spongebob City</h1>
+</div>
+<hr>
+<section id="about" class="about">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+            <div class="section-title">
+                <h1 class="about">About SpongeBob</h1>
+            </div>
+    </div>
+    <div>   
+    <table>
+        <tr>
+            <p class="list_items">A square yellow sponge named SpongeBob SquarePants lives in a pineapple with his pet snail, Gary, <br>in the city of Bikini Bottom on the floor of the Pacific Ocean</p>
+            <li class="list_items"><b>Main character: SpongeBob SquarePants</b></li>
+            <li class="list_items">Appearance: Square yellow sponge</li>
+            <li class="list_items">Residence: Lives in a pineapple</li>
+            <li class="list_items">Companion: Pet snail named Gary</li>
+            <li class="list_items">Location: City of Bikini Bottom on the floor of the Pacific Ocean</li>
+            <li class="list_items">Occupation: Fry cook at the Krusty Krab</li>
+        </tr>
+        <tr>
+            <iframe src="https://www.youtube.com/embed/PhjhgN3OW5A?si=LvyRboR2T8bv_NMJ" class="about_image" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; muted clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+           <!-- <img src="https://i.pinimg.com/originals/82/0d/ae/820daeebd02769e77a9a2c00a8caab01.gif" > -->
+            <audio src="music/Spongebob.mp3" controls loop></audio>
+        </tr>
+    </table>
+    </div>
+    <hr>
+    <div class="service_cards">
+        <div class="card">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG9lY2ZnaGo1eGhwMW9mdjludDcyZjVjaTVxMnUxMGYweGJjNXhhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12uXi1GXBibALC/giphy.gif" width=250px height=200px alt="Placeholder Image" border-radius: 15px 15px 0 0;">
+            <div class="container">
+                <h1 class="container">Patrick</h1>
+                <p>Patrick is the ignorant but humorous best friend of SpongeBob SquarePants. He is portrayed as being an overweight pink starfish, who serves as the village idiot of the underwater city of Bikini Bottom</p>
+                <button>Know More about Patrick</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnQxYjF4OGMxcmd0aWZjZ2QwbWlod3Bka3BhNGhtdmhucTh1cmk4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hLx1RYpEamdj2/giphy.gif" width="250px" height="200px" alt="Placeholder Image" border-radius: 15px 15px 0 0;">
+            <div class="container">
+                <h1 class="container">Squidward</h1>
+                <p>Squidward Tentacles is a character from the Nickelodeon SpongeBob. He is an octopus who lives in Bikini Bottom, between SpongeBob and Patrick Star's houses. He is a cashier at the Krusty Krab and SpongeBob's neighbor</p>
+                <button>Know More about Squidward</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXB6NWx1dHB0YjI0OWZva3BveW55bjM0aWNkM29sOW5qbjI4dWxxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gXhBZfzijya76/giphy.gif" width="250" height="200" alt="Placeholder Image" border-radius: 15px 15px 0 0;">
+            <div class="container">
+                <h1 class="container">Mr. Krabs</h1>
+                <p>Mr. Krabs is commonly known as the greedy founder of the Krusty Krab restaurant, where SpongeBob works as a cook & Squidward works as a cashier. The restaurant's success is built on the popularity of the Krusty Krab's burger</p>
+                <button>Know More about Mr. Krabs</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGFyeDIxYmxqa3d6Ym9rYmFpam5lb2twd3Y2dHRjZDE1NTN6cWxmbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NSf4F8YrZOqA/giphy.gif" width="250" height="200" alt="Placeholder Image" border-radius: 15px 15px 0 0;">
+            <div class="container">
+                <h1 class="container">Sandy - The Squirrel</h1>
+                <p>Sandy is portrayed as an intelligent anthropomorphic squirrel who wears a diving suit and lives underwater. The character's reception from fans has been positive. Sandy has appeared in many SpongeBob SquarePants toys.</p>
+                <button>Know More about Sandy</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHZkMTFybHYzdm5wbXBtNzJwaGk5djRiY292YjZlZWY2ZTQwZTVociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1Ku6HAnww8a1mPW8/giphy.gif" width="250" height="200" alt="Placeholder Image" border-radius: 15px 15px 0 0;">
+            <div class="container">
+                <h1 class="container">Mermaid Man and Barnacle Boy </h1>
+                <p>They are fictional characters from the animated TV series SpongeBob SquarePants. They are superheroes and only characters in the show who are humans of same size as other characters. </p>
+                <button>Know More about Superheroes</button>
+            </div>
+        </div>
+        <br><br>
+        <div class="card_contact">
+            <h1>Contact Us</h1>
+            <div class="container">
+                <form>
+                    <label for firstname="firstname">Enter your First Name</label>
+                    <input type="text" id="fname" class="name"><br>
+                    <label for lastname="lastname">Enter your Last Name</label>
+                    <input type="text" id="lname" class="name"><br>
+                    <label for age="age">Enter your Exact Age</label>
+                    <input type="number" id="age" class="age"><br>
+                    <label for mobileno="mobileno">Enter Mobile Number</label>
+                    <input type="number" id="mobno" class="mobno"><br>
+                    <label for message="message">Enter your message</label>
+                    <textarea name="message"></textarea><br>
+                    <button>SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<section>
+    <div>
+    <h1 class="pricing">Pricings</h1>
+    <br>
+    <div class="card">
+        <h1>Bachpan Plan</h1>
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quasi</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <h1>School Plan</h1>
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quasi</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <h1>College Plan</h1>
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quasi</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <h1>University Plan</h1>
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quasi</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <h1>9 to 5 Job Plan</h1>
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quasi</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="table_price">
+    <hr>
+    <div>
+        <br>
+        <hr>
+        <h2>Pricing table</h2>
+        <br>
+        <table border="2" class="common_table">
+            <tr>
+                <th>
+                    Plan name
+                </th>
+                <th>
+                    Duration
+                </th>
+                <th>
+                    Price
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Standard
+                </td>
+                <td>
+                    75 days
+                </td>
+                <td>
+                    Rs.1,999/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Premium
+                </td>
+                <td>
+                    125 days
+                </td>
+                <td>
+                    Rs.2,999/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Deluxe
+                </td>
+                <td>
+                    365 days
+                </td>
+                <td>
+                    Rs.3,999/-
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<!-- Videos from PC and iFrame-->
+<section>
+<div>
+    <hr>
+    <h1>Videos from PC & iframe</h1>
+    <video  src="Videos/Videos (1).mp4" controls autoplay muted ></video>
+    <video src="videos/Videos (2).mp4" controls poster="https://m.media-amazon.com/images/I/819yANJN8oL._AC_UF1000,1000_QL80_.jpg"></video>
+    <video src="Videos/Videos (3).mp4" controls autoplay muted ></video>
+    <iframe width="914" height="514" src="https://www.youtube.com/embed/L8c0EIvYnmE" title="SpongeBob SquarePants | The &#39;Ripped Pants&#39; Song | Nickelodeon UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</section>
+    <hr>
+    <!-- Audio from PC and online-->
+<section>
+<div>
+    <hr>
+    <h1> Shaadi Songs </h1>
+    <h3>Do Dhari Talwar</h3>
+    <audio src="music/Songs (1).mp3" title="Do Dhari Talwar" controls caption="Do Dhari Talwar"></audio>
+    <h3>Kala Chashma</h3>
+    <audio src="music/Songs (2).mp3" title="Kala Chasma" controls></audio>
+    <h3>Rani tu mai Raja</h3>
+    <audio src="music/Songs (3).mp3" title="Rani tu mai Raja" controls></audio>
+    <h3>Saddi Gali</h3>
+    <audio src="music/Songs (4).mp3" title="Saddi Gali" controls ></audio>
+    <h3>Sweety tera Drama</h3>
+    <audio src="music/Songs (5).mp3" title="Rani tu mai Raja" controls></audio>
+</div>
+</section>
+
+<!-- Footer Khatam -->
+<footer>
+    Copyright 2024 - All Wrong Unreserved 😝😆😂 - Spongebob Website in HTML | CSS by Abdul Talib
+    <a href="https://www.linkedin.com/in/abdultalib751/" class="developer">Abdul Talib</a>
+</footer>
+</body>
+</html>
